@@ -62,7 +62,7 @@ privateCA: false
 noProxy: 127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16 
 
 # Override rancher image location for Air Gap installs
-rancherImage: private-dockerhub01.g-system.io/rancher/rancher
+rancherImage: docker-reg-vip01.cnode.jp:443/rancher/rancher
 # rancher/rancher image tag. https://hub.docker.com/r/rancher/rancher/tags/
 # Defaults to .Chart.appVersion
 rancherImageTag: latest
